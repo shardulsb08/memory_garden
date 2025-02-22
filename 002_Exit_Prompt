@@ -1,14 +1,16 @@
 Please create a memory entry for this session and update the category tree as necessary. Use the following format for the memory entry:
+
+**Memory Entry Format:**
 Category: [Determined Category Path]
 Session [Number] | [Date] | [Topic]
 
-Short Form:
+**Short Form:**
 [One or few lines summary]
 
-Long Form:
+**Long Form:**
 [Detailed summary with key points and specifics]
 
-Analyze the session’s content to determine the best category path. If needed, create new categories or subcategories, or adjust the existing tree structure.
+Analyze the session's content to determine the best category path. If needed, create new categories or subcategories, or adjust the existing tree structure.
 
 **Current Category Tree:**
 [User to insert current category tree here]
@@ -20,6 +22,14 @@ Analyze the session’s content to determine the best category path. If needed, 
 - If significant changes were made to the memory system, create a maintenance history entry summarizing those changes, using this format:
 Session [Number] | [Date] | Memory System Update | [Summary of changes]
 
-This entry will be stored in 'maintenance_history.md'.
 
-This way, I can directly replace my `categories.md` file with the updated tree structure.
+**Next Steps for User:**
+1. **Store the Memory Entry:**
+   - Create or navigate to the directory corresponding to the category path: `[Category Path]`.
+   - Save the memory entry in a file named `session_[Number].md` within that directory.
+   - For example, if the category path is "Projects > Scripts > CVSS Tools", store the memory in `projects/scripts/cvss_tools/session_001.md`.
+2. **Update the Category Tree:**
+   - If the category tree was updated, replace the contents of `categories.md` with the new tree structure provided.
+   - If new directories were created in the tree, ensure the corresponding directories exist in your file system.
+3. **Store Maintenance History (if applicable):**
+   - If a maintenance history entry was created, append it to `maintenance_history.md` in the root directory.
