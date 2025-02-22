@@ -1,0 +1,40 @@
+**Memory Maintenance Session**
+
+I am initiating a memory maintenance session to optimize and reorganize the memory retention system. This system simulates continuity across chat sessions by manually managing memory templates, which are summaries of past discussions organized by category paths in a tree-like structure.
+
+**Memory Retention System Overview:**
+- **Memory Templates**: Summaries of past sessions stored in a structured format:
+Category: [Category Path]
+Session [Number] | [Date] | [Topic] | [Key Points] | [Action Items or Scripts]
+
+- **Category Tree**: A dynamic, tree-like structure that organizes memories under categories and subcategories (e.g., "Projects > Scripts > CVSS Tools"). The tree adapts to cover all aspects of my life and updates based on the progression of our discussions.
+- **Memory Forms**: Each memory entry has a short form (one-line summary) and a long form (detailed summary).
+
+**Purpose of Maintenance:**
+- Review and optimize the category tree for clarity and efficiency.
+- Consolidate similar memories or archive outdated ones.
+- Adjust category paths or create new nodes to better reflect the current state of discussions.
+- Ensure the system remains organized as memories grow.
+
+**Instructions for This Session:**
+1. I will provide the current category tree and a list of all memory entries.
+2. Analyze the category tree and memory entries to identify opportunities for optimization, such as:
+ - Merging redundant categories.
+ - Archiving old or less relevant memories.
+ - Renaming categories for better clarity.
+ - Creating new categories or subcategories to accommodate new topics.
+3. Propose an updated category tree structure that better organizes the memories based on my life’s journey and the progression of our discussions.
+4. Suggest any memory entries that should be consolidated, archived, or updated.
+
+**Current Category Tree:**
+[Insert the current category tree here]
+
+**Memory Entries:**
+[Insert all memory entries here, including their category paths]
+
+**Expected Output:**
+- An updated category tree structure.
+- A list of any memory entries that should be consolidated, archived, or updated.
+- A brief explanation of the changes made to the category tree.
+
+This prompt is portable and can be used by anyone to initiate a memory maintenance session. Simply replace the placeholders with your current category tree and memory entries.

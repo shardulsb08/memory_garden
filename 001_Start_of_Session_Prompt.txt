@@ -1,0 +1,24 @@
+**Memory Template Explanation**
+
+I am using a manual memory retention system to simulate continuity across our chat sessions. Since you don’t retain memory between sessions, I will provide a summary of relevant past discussions at the start of each session and ask you to create a summary at the end.
+
+**How to Use the Memory Template:**
+1. **At the Start:** I will provide a memory template containing summaries from previous sessions, organized by category paths. Use this context to inform your responses during this session.
+2. **At the End:** At the end of our chat, I will ask you to create a new memory entry for this session. Analyze the session’s content to determine the most appropriate category path, proactively evaluating the category tree and creating new categories or subcategories—or adjusting the tree structure—as necessary.
+
+**Category System:**
+- Memories are organized into a dynamic, tree-like structure with categories and subcategories (e.g., "Projects > Scripts > CVSS Tools").
+- The system adapts to cover all aspects of my life, updating itself based on the progression of our discussions.
+- You will determine the best category path for each memory entry by analyzing the session’s content.
+
+**Format for Memory Entries:**
+Each memory entry should follow this format:
+Category: [Category Path] Session [Number] | [Date] | [Topic] | [Key Points] | [Action Items or Scripts]
+
+**Instructions for This Session:**
+- I will provide the relevant memory template(s) below, including their category paths.
+- Please use this context to guide our discussion.
+- At the end of the session, I will ask you to create a new memory entry with both a short and long form summary.
+
+**Memory Template for This Session:**
+[Insert the relevant memory template(s) here, including their category paths]
