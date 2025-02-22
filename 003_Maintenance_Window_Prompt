@@ -8,33 +8,38 @@ Category: [Category Path]
 Session [Number] | [Date] | [Topic] | [Key Points] | [Action Items or Scripts]
 
 - **Category Tree**: A dynamic, tree-like structure that organizes memories under categories and subcategories (e.g., "Projects > Scripts > CVSS Tools"). The tree adapts to cover all aspects of my life and updates based on the progression of our discussions.
-- **Memory Forms**: Each memory entry has a short form (one-line summary) and a long form (detailed summary).
+- **Memory Forms**: Each memory entry has a short form (one to few lines summary) and a long form (detailed summary).
+- **Maintenance History**: A category tracking changes and optimizations made during maintenance sessions.
 
 **Purpose of Maintenance:**
 - Review and optimize the category tree for clarity and efficiency.
 - Consolidate similar memories or archive outdated ones.
-- Adjust category paths or create new nodes to better reflect the current state of discussions.
-- Ensure the system remains organized as memories grow.
+- Adjust category paths or create new nodes as needed.
+- Ensure the system remains organized as it grows.
 
 **Instructions for This Session:**
-1. I will provide the current category tree and a list of all memory entries.
+1. I will provide the current category tree and a list of all memory entries. Ask me if I don't.
 2. Analyze the category tree and memory entries to identify opportunities for optimization, such as:
  - Merging redundant categories.
  - Archiving old or less relevant memories.
  - Renaming categories for better clarity.
  - Creating new categories or subcategories to accommodate new topics.
+ - Any other optimization scope that you may find.
 3. Propose an updated category tree structure that better organizes the memories based on my life’s journey and the progression of our discussions.
 4. Suggest any memory entries that should be consolidated, archived, or updated.
+5. At the end of the session, create a memory entry under "Maintenance History" summarizing the changes, using this format:
+Category: Maintenance History
+Session [Number] | [Date] | Memory Maintenance | [Summary of changes and optimizations]
+
 
 **Current Category Tree:**
-[Insert the current category tree here]
+[Insert current category tree here]
 
 **Memory Entries:**
 [Insert all memory entries here, including their category paths]
 
 **Expected Output:**
-- An updated category tree structure.
-- A list of any memory entries that should be consolidated, archived, or updated.
-- A brief explanation of the changes made to the category tree.
-
-This prompt is portable and can be used by anyone to initiate a memory maintenance session. Simply replace the placeholders with your current category tree and memory entries.
+- An updated category tree.
+- A list of memory entries to consolidate, archive, or update.
+- A brief explanation of changes made.
+- A "Maintenance History" entry summarizing this session.

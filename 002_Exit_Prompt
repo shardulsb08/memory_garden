@@ -3,20 +3,20 @@ Category: [Determined Category Path]
 Session [Number] | [Date] | [Topic]
 
 Short Form:
-[One-line summary]
+[One or few lines summary]
 
 Long Form:
 [Detailed summary with key points and specifics]
 
-
-Additionally, analyze the session’s content to determine the most appropriate category path. If needed, create new categories or subcategories, or adjust the existing tree structure.
+Analyze the session’s content to determine the best category path. If needed, create new categories or subcategories, or adjust the existing tree structure.
 
 **Current Category Tree:**
-[Insert the current category tree here]
+[User to insert current category tree here]
 
 **Expected Output:**
 - The new memory entry with its assigned category path.
-- An updated category tree that reflects any changes (e.g., new nodes or reorganizations).
+- An updated category tree reflecting any changes (e.g., new nodes or reorganizations).
 - A brief explanation of any changes made to the category tree.
+- If significant changes were made to the memory system, create an entry under "Maintenance History" summarizing those changes.
 
-This way, you can directly replace your `categories.md` file with the updated tree structure.
+This way, I can directly replace my `categories.md` file with the updated tree structure.
