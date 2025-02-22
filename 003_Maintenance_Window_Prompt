@@ -16,19 +16,21 @@ Session [Number] | [Date] | [Topic] | [Key Points] | [Action Items or Scripts]
 - Consolidate similar memories or archive outdated ones.
 - Adjust category paths or create new nodes as needed.
 - Ensure the system remains organized as it grows.
+- **Assess and suggest improvements to the prompts (e.g., Start-of-Session, Exit, Maintenance Window) to enhance clarity, usability, or functionality.**
 
 **Instructions for This Session:**
-1. I will provide the current category tree and a list of all memory entries. Ask me if I don't.
+1. I will provide the current category tree and a list of all memory entries. Ask me if I don’t.
 2. Analyze the category tree and memory entries to identify opportunities for optimization, such as:
  - Merging redundant categories.
  - Archiving old or less relevant memories.
  - Renaming categories for better clarity.
  - Creating new categories or subcategories to accommodate new topics.
  - Any other optimization scope that you may find.
-3. Propose an updated category tree structure that better organizes the memories based on my life's journey and the progression of our discussions.
+3. Propose an updated category tree structure that better organizes the memories based on my life’s journey and the progression of our discussions.
 4. Suggest any memory entries that should be consolidated, archived, or updated.
-5. **If changes are made to the category tree or memory entries, provide instructions on how to update the `short_memories.md` files accordingly.**
-6. At the end of the session, create a maintenance history entry summarizing the changes, using this format:
+5. **Evaluate the current prompts and suggest any improvements to enhance their clarity, usability, or functionality.**
+6. If changes are made to the category tree or memory entries, provide instructions on how to update the `short_memories.md` files accordingly. When providing these instructions, specify which directories (including parent directories up to the root) need their `short_memories.md` files updated based on the changes made.
+7. At the end of the session, create a maintenance history entry summarizing the changes, using this format:
 Session [Number] | [Date] | Memory Maintenance | [Summary of changes and optimizations]
 
 
@@ -41,7 +43,8 @@ Session [Number] | [Date] | Memory Maintenance | [Summary of changes and optimiz
 **Expected Output:**
 - An updated category tree.
 - A list of memory entries to consolidate, archive, or update.
-- **Instructions for updating `short_memories.md` files based on any changes made.**
+- **Suggestions for improving the prompts, if any.**
+- Instructions for updating `short_memories.md` files based on any changes made.
 - A brief explanation of changes made.
 - A maintenance history entry summarizing this session.
 
@@ -53,6 +56,8 @@ Session [Number] | [Date] | Memory Maintenance | [Summary of changes and optimiz
 - For any memory entries suggested for consolidation, archiving, or updating, make the necessary changes in their respective files.
 - For archived memories, consider moving them to an "archive" subdirectory within their category path.
 3. **Update `short_memories.md` Files:**
-   - Follow the provided instructions to update `short_memories.md` files in the affected directories.
-4. **Store Maintenance History:**
+- Follow the provided instructions to update `short_memories.md` files in the affected directories.
+4. **Implement Prompt Improvements:**
+- If suggestions for improving the prompts are provided, update the relevant prompt files (e.g., `001_Start_of_Session_Prompt.txt`, `002_Exit_Prompt`, `003_Maintenance_Window_Prompt`) with the recommended changes.
+5. **Store Maintenance History:**
 - Append the provided maintenance history entry to `maintenance_history.md` in the root directory.
