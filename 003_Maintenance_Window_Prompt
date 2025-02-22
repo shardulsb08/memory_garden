@@ -27,7 +27,8 @@ Session [Number] | [Date] | [Topic] | [Key Points] | [Action Items or Scripts]
  - Any other optimization scope that you may find.
 3. Propose an updated category tree structure that better organizes the memories based on my life's journey and the progression of our discussions.
 4. Suggest any memory entries that should be consolidated, archived, or updated.
-5. At the end of the session, create a maintenance history entry summarizing the changes, using this format:
+5. **If changes are made to the category tree or memory entries, provide instructions on how to update the `short_memories.md` files accordingly.**
+6. At the end of the session, create a maintenance history entry summarizing the changes, using this format:
 Session [Number] | [Date] | Memory Maintenance | [Summary of changes and optimizations]
 
 
@@ -40,6 +41,7 @@ Session [Number] | [Date] | Memory Maintenance | [Summary of changes and optimiz
 **Expected Output:**
 - An updated category tree.
 - A list of memory entries to consolidate, archive, or update.
+- **Instructions for updating `short_memories.md` files based on any changes made.**
 - A brief explanation of changes made.
 - A maintenance history entry summarizing this session.
 
@@ -50,5 +52,7 @@ Session [Number] | [Date] | Memory Maintenance | [Summary of changes and optimiz
 2. **Handle Memory Entries:**
 - For any memory entries suggested for consolidation, archiving, or updating, make the necessary changes in their respective files.
 - For archived memories, consider moving them to an "archive" subdirectory within their category path.
-3. **Store Maintenance History:**
+3. **Update `short_memories.md` Files:**
+   - Follow the provided instructions to update `short_memories.md` files in the affected directories.
+4. **Store Maintenance History:**
 - Append the provided maintenance history entry to `maintenance_history.md` in the root directory.

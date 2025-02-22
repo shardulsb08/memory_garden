@@ -19,6 +19,8 @@ Analyze the session's content to determine the best category path. If needed, cr
 - The new memory entry with its assigned category path.
 - An updated category tree reflecting any changes (e.g., new nodes or reorganizations).
 - A brief explanation of any changes made to the category tree.
+- **Storing the memory entry (including directory and filename).**
+- **Updating `short_memories.md` files in the relevant directories.**
 - If significant changes were made to the memory system, create a maintenance history entry summarizing those changes, using this format:
 Session [Number] | [Date] | Memory System Update | [Summary of changes]
 
@@ -28,8 +30,20 @@ Session [Number] | [Date] | Memory System Update | [Summary of changes]
    - Create or navigate to the directory corresponding to the category path: `[Category Path]`.
    - Save the memory entry in a file named `session_[Number].md` within that directory.
    - For example, if the category path is "Projects > Scripts > CVSS Tools", store the memory in `projects/scripts/cvss_tools/session_001.md`.
-2. **Update the Category Tree:**
+2. **Update `short_memories.md` Files:**
+   - Append the short summary to the `short_memories.md` file in the memory's category directory and all parent directories up to the root.
+   - For example, add the short summary to:
+     - `projects/scripts/cvss_tools/short_memories.md`
+     - `projects/scripts/short_memories.md`
+     - `projects/short_memories.md`
+     - `short_memories.md` (root)
+3. **Update the Category Tree:**
    - If the category tree was updated, replace the contents of `categories.md` with the new tree structure provided.
    - If new directories were created in the tree, ensure the corresponding directories exist in your file system.
-3. **Store Maintenance History (if applicable):**
+4. **Store Maintenance History (if applicable):**
    - If a maintenance history entry was created, append it to `maintenance_history.md` in the root directory.
+
+**Guidelines for "Next Steps for User":**
+- Provide the exact directory path and filename for storing the memory entry (e.g., `projects/scripts/cvss_tools/session_001.md`).
+- Instruct the user to append the short summary to `short_memories.md` in the memory’s category directory and all parent directories up to the root.
+- If the category tree is updated, instruct the user to replace `categories.md` and create any new directories.
