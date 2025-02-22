@@ -17,6 +17,9 @@ Analyze the session’s content to determine the best category path. If needed, 
 - The new memory entry with its assigned category path.
 - An updated category tree reflecting any changes (e.g., new nodes or reorganizations).
 - A brief explanation of any changes made to the category tree.
-- If significant changes were made to the memory system, create an entry under "Maintenance History" summarizing those changes.
+- If significant changes were made to the memory system, create a maintenance history entry summarizing those changes, using this format:
+Session [Number] | [Date] | Memory System Update | [Summary of changes]
+
+This entry will be stored in 'maintenance_history.md'.
 
 This way, I can directly replace my `categories.md` file with the updated tree structure.
